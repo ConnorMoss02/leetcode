@@ -7,9 +7,9 @@ public class Solution
         {
             if (hs.Contains(num))
             {
-                return true;
+                return true; // We found a duplicate
             }
-            hs.Add(num);
+            hs.Add(num); // If not, add the number to the set
         }
 
         return false;
